@@ -7,7 +7,7 @@ CoderFriends
 Use a Firebase backend with Passport and Express to show a user's coder friends.
 
 ##Resources
-* [passport-github] (https://github.com/jaredhanson/passport-github)
+* [passport-github] (https://github.com/cfsghost/passport-github)
 * [Github API Docs] (https://developer.github.com/v3/)
 * [node-github] (https://github.com/mikedeboer/node-github)
 
@@ -41,7 +41,7 @@ Create the server.js file and set it up to serve your static files.
   * express
   * express-session
   * passport
-  * passport-github
+  * passport-github2
 * [Create a Github app](https://github.com/settings/applications) and then set up the Github Strategy in your server.js with your associated `clientID` and `clientSecret`. Use a callbackURL that will redirect the user to `/auth/github/callback`
 * Make sure you use the session, passport.initialize and passport.session middelware
 * Set up your auth endpoints:
